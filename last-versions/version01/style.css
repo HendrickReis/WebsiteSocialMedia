@@ -1,0 +1,48 @@
+body {
+   position: relative;
+    height: 98vh;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+}
+
+header {
+    float: right;
+}
+
+.conversas {
+    margin: 0px;
+    padding: 3px;
+    position: relative;
+    height: 100%;
+    width: 16%;
+    background-color: rgb(32, 30, 30);
+}
+
+#imagemzinha {
+    display: absolute;
+}
+
+footer {
+    position: absolute;
+
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+input {
+    display: block;
+    position: absolute;
+
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -1%);
+    width: 60vw;
+    padding: 17px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: black;
+}
+
