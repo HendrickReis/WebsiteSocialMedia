@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   position: relative;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+
+}
+
+header {
+    display: flex;
+    float: right;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.conversas {
+    margin: 0px;
+    padding: 7px;
+    position: relative;
+    height: 100%;
+    width: 15.5%;
+    background-color: rgb(32, 30, 30);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#mensagens {
+ text-align: center;
+ position: absolute;
+
+ top: 50%;
+ left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#imagemzinha {
+    display: absolute;
+}
+
+footer {
+    position: absolute;
+
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+#area_mensagens {
+    flex-grow: 1;
+    resize: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+#enviar {
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 87.8%;
+    left: 77%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(46, 43, 43);
+    color: white;
+    zoom: 0.7;
+    margin-left: -10px;
+    line-height: 50px;
+}
+
+#conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -1%);
+    width: 62%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: black;
+}
+
+@media (max-width: 760px) {
+    #conteudo {
+        width: 76%;
+    }
+
+    #enviar {
+        width: 45px;
+        height: 45px;
+        top: 86%;
+        left: 75%;
+    }
+}
+
+@media (max-width: 460px) {
+    #conteudo {
+        width: 66%;
+    }
+
+    #enviar {
+        width: 40px;
+        height: 40px;
+        top: 82%;
+        left: 73%;
+    }
+}
+
+@media (max-width: 2000px) {
+    #enviar {
+        top: 87.7%;
+        left: 78%;
+    }
+}

@@ -22,3 +22,10 @@ João - Nessa versão, como primeira contribuição, eu decidi criar um codigo b
 - Troquei o caminho dos arquivos no html para o python conseguir reconhecer;
 - Criação de codigo base do flask e da rota principal(temporaria);
 - Troquei os nomes do arquivos de css e js
+
+# Quarta Versão
+João - Nessa versão eu decidi adicionar uma conecção com um banco de dados(eu decidi usar a supabase) e testar como as mensagens iriam aparecer.
+
+## Alterações
+- Adição do arquivo back_end.py para estabelecer conecção com o banco de dados
+- Grande adição no script.js para adicionar mensagens(requer mudanças)
